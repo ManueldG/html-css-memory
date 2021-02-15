@@ -10,5 +10,50 @@ body {
 }
 
 h1 {
+    text-align: center;
+    text-shadow: 2px 2px rgb(165, 165, 165);
+    font-size: 55px;
     color: white;
+}
+
+main {
+    margin: 0 auto;
+    height: 1000px;
+    width: 1000px;
+    }
+
+.row {
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    height: 250px;
+    width: 200px;
+    padding: 20px 5px;
+    float: left
+}
+
+.card img {
+    height: 180px;
+    width: 100%;
+    
+}
+
+.name {
+    text-align: center;
+    color: orange;
+}
+
+.row .card:last-child {
+    float:right;
+}
+
+.row:first-child .card:last-child:hover {
+    content: url(../img/pattern.png);
+}
+
+footer {
+    text-align: center;
 }
