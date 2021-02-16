@@ -19,10 +19,14 @@ h1 {
 main {
     margin: 0 auto;
     height: 1000px;
-    width: 800px;
+    width: 924px;
     }
 
 .row {
+    content:'';
+    clear: both;
+    display:table;
+    margin:20px;
 
 }
 
@@ -32,30 +36,46 @@ main {
     height: 250px;
     width: 200px;
     padding: 20px 5px;
+    margin-right:20px;
     float: left
 }
 
-.card img {
-    height: 180px;
-    width: 100%;
-    
+.image , img {
+    content:'';
+    clear: both;
+    display:table;
+    height:212px;
+    width:191px;    
 }
 
 .name {
     text-align: center;
     color: orange;
+    display:none;
 }
 
-.row .card {
+/*.row .card::after {
     content: url(../img/pattern.png);
-}
+}*/
+
+
 
 /*carta 11*/
-.row:nth-child(1) .card:nth-child(1) {
+/*.row:nth-child(1) .image:nth-child(1) {
     content: url(../img/pattern.png);
 }
-.row:nth-child(1) .card:nth-child(1):hover {
+
+.row:nth-child(1) .name:nth-child(1) {
+    visibility:visible;
+    
+}*/
+.row:nth-child(1) .image:nth-child(1):hover
+{
     content: url(../img/noun_Bicycle_3134821.png);
+}
+.row:nth-child(1) .name:nth-child(1):hover
+{   
+    display: block;
 }
 /*carta 11 fine*/
 
@@ -77,6 +97,16 @@ main {
 }
 /*carta 13 fine*/
 
+/*carta 14*/
+.row:nth-child(1) .card:nth-child(4) {
+    content: url(../img/pattern.png);
+}
+.row:nth-child(1) .card:nth-child(4):hover {
+    content: url(../img/noun_Submarine_3134738.png);
+}
+/*carta 14 fine*/
+
+
 /*carta 21*/
 .row:nth-child(2) .card:nth-child(1) {
     content: url(../img/pattern.png);
@@ -95,21 +125,57 @@ main {
 }
 /*carta 23 fine*/
 
+/*carta 24*/
+.row:nth-child(2) .card:nth-child(4) {
+    content: url(../img/pattern.png);
+}
+.row:nth-child(2) .card:nth-child(4):hover {
+    content: url(../img/noun_Tram_3134750.png);
+}
+/*carta 24 fine*/
+
 /*carta 31*/
 .row:nth-child(3) .card:nth-child(1) {
     content: url(../img/pattern.png);
 }
 .row:nth-child(3) .card:nth-child(1):hover {
-    content: url(../img/noun_Bicycle_3134821.png);
+    content: url(../img/noun_Cruise_Ship_3134824.png);
 }
 /*carta 31 fine*/
 
+/*carta 32*/
+.row:nth-child(3) .card:nth-child(2) {
+    content: url(../img/pattern.png);
+}
+.row:nth-child(3) .card:nth-child(2):hover {
+    content: url(../img/noun_Tram_3134750.png);
+}
+/*carta 32 fine*/
 
-/*carta scoperta*/
-.row:nth-child(2) .card:nth-child(2) {
+/*carta 33*/
+.row:nth-child(3) .card:nth-child(3) {
+    content: url(../img/pattern.png);
+}
+.row:nth-child(3) .card:nth-child(3):hover {
+    content: url(../img/noun_Tractor_3134797.png);
+}
+/*carta 33 fine*/
+
+/*carta 34*/
+.row:nth-child(3) .card:nth-child(4) {
+    content: url(../img/pattern.png);
+}
+.row:nth-child(3) .card:nth-child(4):hover {
     content: url(../img/noun_air_balloon_3134741.png);
 }
-.row:nth-child(2) .card:nth-child(2):hover {
+/*carta 34 fine*/
+
+
+/*carta scoperta*/
+/*.row:nth-child(2) .image:nth-child(1) {
+    content: url(../img/noun_air_balloon_3134741.png);
+}*/
+.row:nth-child(2) card:nth-child(1):hover {
     content: url(../img/pattern.png);
 }
 /*carta scoperta*/
