@@ -69,14 +69,25 @@ main {
     visibility:visible;
     
 }*/
+
+/*.row:nth-child(1) .name:nth-child(1):hover 
+{
+    display: block;
+}*/
 .row:nth-child(1) .image:nth-child(1):hover
+
 {
     content: url(../img/noun_Bicycle_3134821.png);
+    
 }
-.row:nth-child(1) .name:nth-child(1):hover
-{   
+.row:nth-child(1) .image:nth-child(1):hover + .name
+
+{
     display: block;
+    
 }
+
+
 /*carta 11 fine*/
 
 /*carta 12*/
