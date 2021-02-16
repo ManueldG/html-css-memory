@@ -108,34 +108,42 @@ main {
 {
     display: block;    
 }
-
 /*carta 14 fine*/
 
 
 /*carta 21*/
-.row:nth-child(2) .card:nth-child(1) {
-    content: url(../img/pattern.png);
-}
-.row:nth-child(2) .card:nth-child(1):hover {
+.row:nth-child(2) .card:nth-child(1) .image:hover
+{
     content: url(../img/noun_Tractor_3134797.png);
+}
+
+.row:nth-child(2) .card:nth-child(1) .image:hover + .name
+{
+    display: block;    
 }
 /*carta 21 fine*/
 
 /*carta 23*/
-.row:nth-child(2) .card:nth-child(3) {
-    content: url(../img/pattern.png);
-}
-.row:nth-child(2) .card:nth-child(3):hover {
+.row:nth-child(2) .card:nth-child(3) .image:hover
+{
     content: url(../img/noun_Bicycle_3134821.png);
+}
+
+.row:nth-child(2) .card:nth-child(3) .image:hover + .name
+{
+    display: block;    
 }
 /*carta 23 fine*/
 
 /*carta 24*/
-.row:nth-child(2) .card:nth-child(4) {
-    content: url(../img/pattern.png);
-}
-.row:nth-child(2) .card:nth-child(4):hover {
+.row:nth-child(2) .card:nth-child(4) .image:hover
+{
     content: url(../img/noun_Tram_3134750.png);
+}
+
+.row:nth-child(2) .card:nth-child(4) .image:hover + .name
+{
+    display: block;    
 }
 /*carta 24 fine*/
 
